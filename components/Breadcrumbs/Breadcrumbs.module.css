@@ -1,0 +1,20 @@
+.section {
+    background-color: #3d3c3c;
+    padding: 12px var(--padding);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+}
+
+.section a {
+    color: currentColor;
+    text-decoration: none;
+    animation: color 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.section a:hover {
+    color: #DFFF00;
+}

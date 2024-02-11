@@ -1,0 +1,25 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding: var(--padding);
+  display: flex;
+  justify-content: space-between;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img {
+  width: 25px;
+}
+
+.links {
+  display: flex;
+}
+
+.links > a {
+  margin-left: 10px;
+}

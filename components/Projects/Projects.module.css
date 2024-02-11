@@ -18,6 +18,18 @@
 .tags {
   font-size: var(--font-xs);
   font-weight: bold;
+  display: flex;
+  gap: 4px;
+}
+
+.tags a {
+  color: currentColor;
+  text-decoration: none;
+  animation: color 0.3s ease-in-out;
+}
+
+.tags a:hover {
+  color: #0a540d;
 }
 
 .linkButton {
