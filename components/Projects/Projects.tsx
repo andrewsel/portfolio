@@ -25,7 +25,12 @@ const Projects = ({ tag }: Props) => {
             ))}
           </div>
           {project.siteUrl && (
-            <a className={styles.linkButton} href={project.siteUrl}>
+            <a
+              className={styles.linkButton}
+              href={project.siteUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View site
               <svg
                 xmlns="http://www.w3.org/2000/svg"
